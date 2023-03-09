@@ -28,7 +28,7 @@ fn main() {
         let line = line.unwrap();
         if let Some(captures) = re.captures(&line) {
             let rtt: f64 = captures.get(1).unwrap().as_str().parse().unwrap();
-            data.push(rtt.round());
+            data.push(rtt);
         }
     }
     let data_len = data.len();
