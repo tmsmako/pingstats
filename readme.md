@@ -1,3 +1,4 @@
+![workflow](https://github.com/tmsmako/pingstats/blob/master/.github/workflows/rust.yml/badge.svg)
 a simple console app written in rust that creates a histogram of RTT values (round-trip time) from linux "ping" command output and renders to an SVG image
 
 ## Notes
